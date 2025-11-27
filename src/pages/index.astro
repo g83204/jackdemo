@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation';
+import Hero from '../components/Hero';
+import Services from '../components/Services';
+import About from '../components/About';
+import Recommendations from '../components/Recommendations';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
+import Toast from '../components/Toast';
+---
+
+<Layout title="Jack | 專業書局業務 & 閱讀顧問">
+  <Navigation client:load />
+  <Hero client:load />
+  <Services client:load />
+  <About client:load />
+  <Recommendations client:load />
+  <Contact client:load />
+  <Footer />
+  <Toast client:load />
+</Layout>
